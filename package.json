@@ -1,5 +1,5 @@
 {
-  "name": "reveal.js",
+  "name": "reveal",
   "version": "5.2.1",
   "description": "The HTML Presentation Framework",
   "homepage": "https://revealjs.com",
@@ -12,11 +12,7 @@
     "start": "gulp serve",
     "build": "gulp build"
   },
-  "author": {
-    "name": "Hakim El Hattab",
-    "email": "hakim.elhattab@gmail.com",
-    "web": "https://hakim.se"
-  },
+  "author": "Hakim El Hattab <hakim.elhattab@gmail.com> (https://hakim.se)",
   "repository": {
     "type": "git",
     "url": "git://github.com/hakimel/reveal.js.git"
@@ -52,10 +48,10 @@
     "highlight.js": "^11.9.0",
     "marked": "^4.3.0",
     "node-qunit-puppeteer": "^2.2.0",
-    "through2": "^4.0.2",
     "qunit": "^2.22.0",
     "rollup": "^4.1.5",
     "sass": "^1.79.4",
+    "through2": "^4.0.2",
     "yargs": "^17.7.2"
   },
   "overrides": {
@@ -104,5 +100,15 @@
       "no-eq-null": 2,
       "no-unused-expressions": 0
     }
+  },
+  "dependencies": {
+    "reveal.js": "^5.2.1"
+  },
+  "directories": {
+    "example": "examples",
+    "test": "test"
+  },
+  "bugs": {
+    "url": "https://github.com/hakimel/reveal.js/issues"
   }
 }
